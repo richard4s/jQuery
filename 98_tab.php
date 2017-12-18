@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>jQuery Practice</title>
+<link rel="stylesheet" type="text/css" href="css/tab.css">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+</head>
+<body>
+
+<div id="tabs">
+	<ul>
+		<li><a href="#about-me">About Me</a></li>
+		<li><a href="#portfolio">Portfolio</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="php/loop.php">Loop</a></li>
+	</ul>
+	<div id="about-me">
+		<p>A short paragraph about me</p>
+	</div>
+	<div id="portfolio">
+		<p>This is my portfolio</p>
+	</div>
+	<div id="contact">
+		<p>My contact details</p>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<!-- <script type="text/javascript" src="js/jquery_cookie.js"></script>
+ --><script type="text/javascript" src="js/tab.js"></script>
+</body>
+</html> 
